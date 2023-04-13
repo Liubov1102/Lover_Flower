@@ -1,0 +1,87 @@
+
+body {
+        
+        font-family: Roboto, sans-serif;
+    }
+
+    html {
+        box-sizing: border-box;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .list {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    *,
+    *::after,
+    *::before {
+        box-sizing: inherit;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+.header-home {
+    z-index: 10;
+    position: relative;
+    
+    width: 1440px;
+    height: 1244px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #010C0F;
+background-repeat: no-repeat;
+      background-image: url(./images/home_up.png),
+      url(./images/ellips28.png),
+      url(./images/ellipse29.png);
+      background-position: top, left, right top 60px;
+       
+}
+
+.navigation{
+display: flex;
+}
+.nav-header{
+display: flex;
+}
+.header-floor{
+    content: " ";
+    position: absolute;    
+    display: flex;  
+    bottom: 0;
+    width: 100%;
+    height: 406px;
+    background-position: bottom;
+        background-repeat: no-repeat;
+        
+            
+    background-image: linear-gradient(180deg, rgba(4, 10, 10, 0) 0%, #040A0A 100%),url(./images/home.jpg);
+}
+.header-floor img {
+    margin-top: 207px;
+    margin-left: 70%;
+}
